@@ -120,6 +120,6 @@ app.delete("/api/students/:id", (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+app.listen(3000, () => {
+    console.log(`Server running at http://localhost:3000`);
 });
